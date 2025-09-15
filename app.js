@@ -1,3 +1,4 @@
+import mongoose from './config/db-connection.js'
 import express from "express";
 import mongoose from "mongoose";
 const app = express();

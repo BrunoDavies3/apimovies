@@ -1,11 +1,10 @@
 import mongoose from "mongoose";
 
 const movieSchema = new mongoose.Schema({
-    title: String,
-    platform: String,
-    genre: String,
-    year: Number,
-    price: Number
+    title: String, 
+    year: Number, 
+    genre: String, 
+    ticket: Number
 });
 
 const Movie = mongoose.model('Movie', movieSchema);
