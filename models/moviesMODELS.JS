@@ -4,7 +4,8 @@ const movieSchema = new mongoose.Schema({
     title: String, 
     year: Number, 
     genre: String, 
-    ticket: Number
+    ticket: Number,
+    image: String
 });
 
 const Movie = mongoose.model('Movie', movieSchema);
